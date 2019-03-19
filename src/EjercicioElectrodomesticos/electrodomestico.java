@@ -1,10 +1,10 @@
 package EjercicioElectrodomesticos;
 
 public class electrodomestico {
-	private int precio =100;
-	private String color = "blanco";
-	private char consumo = 'F';
-	private int peso = 5;
+	private int precio ;
+	private String color ;
+	private char consumo ;
+	private int peso ;
 	
 	
 	
@@ -19,8 +19,7 @@ public class electrodomestico {
 
 
 	public electrodomestico (char consumos, int tamaño) {
-		
-		
+		this.color= "Blanco";
 		if (consumos == 'a') {
 			this.precio = precio + 100;
 			this.consumo = 'a';
